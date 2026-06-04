@@ -3,7 +3,7 @@ const teamMembers = [
     name: "Ayodele Israel Adebayo",
     github: "https://github.com/ayoisrael/my-capstone-project",
   },
-  { name: "Placeholder Member 2", github: "https://github.com/placeholder" },
+  { name: "Olaniyi Damilare Gabriel", github: "https://github.com/smartdammie" },
   { name: "Placeholder Member 3", github: "https://github.com/placeholder" },
   { name: "Placeholder Member 4", github: "https://github.com/placeholder" },
   { name: "Placeholder Member 5", github: "https://github.com/placeholder" },
