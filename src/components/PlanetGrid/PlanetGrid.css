@@ -1,0 +1,140 @@
+/* ── Section wrapper ── */
+.planet-grid-section {
+  padding: var(--section-padding);
+  background: #f2f7ff;
+}
+
+/* Override global section-title / section-subtitle for this light-background section */
+.planet-grid-section .section-title {
+  color: #1a3a7c;
+}
+
+.planet-grid-section .section-subtitle {
+  color: #4a5568;
+}
+
+/* ── Grid ── */
+.planet-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+/* ── Card ── */
+.planet-card {
+  background: #ffffff;
+  border: 1px solid #dde6f5;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 0;
+  box-shadow: 0 2px 12px rgba(37, 99, 235, 0.07);
+  transition:
+    transform var(--transition),
+    box-shadow var(--transition),
+    border-color var(--transition);
+}
+
+.planet-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(37, 99, 235, 0.15);
+  border-color: rgba(59, 130, 246, 0.4);
+}
+
+/* ── Card image ── */
+.planet-card__img-wrapper {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: #0a0f2e;
+}
+
+.planet-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.planet-card:hover .planet-card__img {
+  transform: scale(1.06);
+}
+
+/* ── Card caption ── */
+.planet-card__caption {
+  padding: 1rem 1rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  text-align: center;
+}
+
+.planet-card__name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1a202c;
+}
+
+.planet-card__distance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+/* .planet-card__distance-label {
+  font-size: 0.78rem;
+  color: #718096;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+} */
+
+.planet-card__distance-value {
+  font-size: 0.9rem;
+  color: #2563eb;
+  font-weight: 600;
+}
+
+/* ── Loading / error states ── */
+.planet-grid__status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 4rem 0;
+  color: #4a5568;
+}
+
+.planet-grid__status--error {
+  color: #e53e3e;
+}
+
+.planet-grid__spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #dde6f5;
+  border-top-color: #2563eb;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .planet-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .planet-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+}

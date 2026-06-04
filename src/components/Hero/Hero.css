@@ -1,0 +1,151 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 7rem 0 5rem;
+  position: relative;
+  overflow: clip;
+  background:
+    radial-gradient(ellipse 80% 60% at 70% 50%, rgba(37, 99, 235, 0.12) 0%, transparent 70%),
+    var(--bg-primary);
+}
+
+/* Subtle star-field dots */
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: 48px 48px;
+  pointer-events: none;
+}
+
+.hero__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.hero__tag {
+  display: inline-block;
+  background: rgba(37, 99, 235, 0.15);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  color: var(--accent-secondary);
+  padding: 0.35rem 1rem;
+  border-radius: 100px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+.hero__title {
+  font-size: clamp(2rem, 4.5vw, 3.25rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+
+.hero__title-accent {
+  color: var(--accent-secondary);
+}
+
+.hero__subtitle {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  line-height: 1.8;
+  max-width: 500px;
+}
+
+.hero__ctas {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.hero__image-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__planet-glow {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  background: radial-gradient(circle, rgba(37, 99, 235, 0.45) 0%, rgba(37, 99, 235, 0.15) 40%, transparent 70%);
+  border-radius: 50%;
+  filter: blur(60px);
+}
+
+.hero__planet-img {
+  width: 520px;
+  height: 520px;
+  object-fit: contain;
+  position: relative;
+  z-index: 1;
+  animation: float 6s ease-in-out infinite;
+  filter: drop-shadow(0 0 40px rgba(37, 99, 235, 0.6)) drop-shadow(0 0 80px rgba(37, 99, 235, 0.3));
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-18px); }
+}
+
+@media (max-width: 900px) {
+  .hero__planet-img {
+    width: 380px;
+    height: 380px;
+  }
+
+  .hero__planet-glow {
+    width: 520px;
+    height: 520px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero__tag {
+    margin: 0 auto;
+  }
+
+  .hero__subtitle {
+    margin: 0 auto;
+  }
+
+  .hero__ctas {
+    justify-content: center;
+  }
+
+  .hero__image-wrapper {
+    order: -1;
+  }
+
+  .hero__planet-img {
+    width: 280px;
+    height: 280px;
+  }
+
+  .hero__planet-glow {
+    width: 420px;
+    height: 420px;
+  }
+}

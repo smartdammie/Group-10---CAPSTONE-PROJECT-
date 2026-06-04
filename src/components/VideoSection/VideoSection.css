@@ -1,0 +1,103 @@
+.video-section {
+  padding: var(--section-padding);
+  background: #ffffff;
+  border-top: 1.5px solid rgba(37, 99, 235, 0.2);
+  border-bottom: 1.5px solid rgba(37, 99, 235, 0.2);
+  /* height: 757px; */
+}
+
+.video-section__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+/* ── Video wrapper ── */
+.video-section__video-wrapper {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  background: #062042;
+  box-shadow: 0 8px 32px rgba(37, 99, 235, 0.18);
+}
+
+.video-section__video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Decorative play button — purely visual since the video autoplays */
+.video-section__play-btn {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(6, 32, 66, 0.35);
+  pointer-events: none;
+}
+
+.video-section__play-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 50%;
+  font-size: 1.4rem;
+  color: #1a3a6e;
+  padding-left: 4px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* ── Text content ── */
+.video-section__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  text-align: center;
+}
+
+.video-section__title {
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  font-weight: 700;
+  line-height: 1.3;
+  color: #0f1a4e;
+}
+
+.video-section__text {
+  color: #4a5568;
+  line-height: 1.85;
+  font-size: 0.975rem;
+}
+
+/* Bold highlighted keywords in the description */
+.video-section__keyword {
+  color: #2563eb;
+  font-weight: 700;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .video-section__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .video-section__video-wrapper {
+    aspect-ratio: 16 / 9;
+  }
+
+  .video-section__title {
+    text-align: center;
+  }
+
+  .video-section__text {
+    text-align: center;
+  }
+}
