@@ -1,6 +1,6 @@
 const teamMembers = [
   {
-    name: "Adebayo Ayodele Israel",
+    name: "Ayodele Israel Adebayo",
     github: "https://github.com/ayoisrael/my-capstone-project",
   },
   { name: "Placeholder Member 2", github: "https://github.com/placeholder" },
