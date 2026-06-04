@@ -15,7 +15,7 @@ Phoenix is a React-based web app that fetches real planetary data from an extern
 | Name | GitHub |
 |------|--------|
 | Adebayo Ayodele Israel | [GitHub](https://github.com/placeholder) |
-| Placeholder Member 2 | [GitHub](https://github.com/placeholder) |
+| Kenneth Oyesola| [GitHub](https://github.com/Kenoye001) |
 | Placeholder Member 3 | [GitHub](https://github.com/placeholder) |
 | Placeholder Member 4 | [GitHub](https://github.com/placeholder) |
 | Placeholder Member 5 | [GitHub](https://github.com/placeholder) |
