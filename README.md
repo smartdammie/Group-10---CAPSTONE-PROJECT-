@@ -51,7 +51,7 @@ Phoenix is a React-based web app that fetches real planetary data from an extern
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/placeholder/group-10-capstone.git
+   https://github.com/smartdammie/Group-10---CAPSTONE-PROJECT-
    cd group-10-capstone
    ```
 
