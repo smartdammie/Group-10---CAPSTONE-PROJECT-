@@ -8,7 +8,10 @@ const teamMembers = [
     github: "https://github.com/smartdammie",
   },
   { name: "Erua Joseph Yusuf", github: "https://github.com/Eruxuf" },
-  { name: "Okoro Oghenetega ", github: "https://github.com/INFlNlTEE" },
+  { 
+    name: "Okoro Oghenetega",
+   github: "https://github.com/INFlNlTEE"
+  },
   { name: "Kenneth Oyesola", github: "https://github.com/Kenoye001" },
   { name: "Placeholder Member 6", github: "https://github.com/placeholder" },
   { name: "Placeholder Member 7", github: "https://github.com/placeholder" },
