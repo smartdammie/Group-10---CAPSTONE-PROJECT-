@@ -16,4 +16,4 @@ const teamMembers = [
   { name: 'Placeholder Member 15', github: 'https://github.com/placeholder' },
 ]
 
-export default teamMembers
+export default teamMembers;
