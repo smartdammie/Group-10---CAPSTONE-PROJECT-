@@ -91,7 +91,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://github.com/placeholder"
+                href="https://github.com/smartdammie/Group-10---CAPSTONE-PROJECT-"
                 target="_blank"
                 rel="noopener noreferrer"
               >
