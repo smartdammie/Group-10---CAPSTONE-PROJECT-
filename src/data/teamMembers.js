@@ -13,7 +13,7 @@ const teamMembers = [
   { name: "Placeholder Member 9", github: "https://github.com/placeholder" },
   { name: "Placeholder Member 10", github: "https://github.com/placeholder" },
   { name: "Placeholder Member 11", github: "https://github.com/placeholder" },
-  { name: "Placeholder Member 12", github: "https://github.com/placeholder" },
+  { name: "Akinsipe Oluwabukola", github: "https://github.com/Bukolaeg" },
   { name: "Placeholder Member 13", github: "https://github.com/placeholder" },
   { name: "Placeholder Member 14", github: "https://github.com/placeholder" },
   { name: "Placeholder Member 15", github: "https://github.com/placeholder" },
