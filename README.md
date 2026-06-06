@@ -19,16 +19,9 @@ Phoenix is a React-based web app that fetches real planetary data from an extern
 | Erua Joseph Yusuf        | [GitHub](https://github.com/Eruxuf)      |
 | Okoro Oghenetega         | [GitHub](https://github.com/INFlNlTEE)   |
 | Oyesola Kenneth Oyedotun | [GitHub](https://github.com/Kenoye001)   |
-| Placeholder Member 6     | [GitHub](https://github.com/placeholder) |
-| Placeholder Member 7     | [GitHub](https://github.com/placeholder) |
-| Placeholder Member 8     | [GitHub](https://github.com/placeholder) |
-| Placeholder Member 9     | [GitHub](https://github.com/placeholder) |
-| Placeholder Member 10    | [GitHub](https://github.com/placeholder) |
-| Placeholder Member 11    | [GitHub](https://github.com/placeholder) |
-| Placeholder Member 12    | [GitHub](https://github.com/placeholder) |
-| Placeholder Member 13    | [GitHub](https://github.com/placeholder) |
-| Placeholder Member 14    | [GitHub](https://github.com/placeholder) |
-| Placeholder Member 15    | [GitHub](https://github.com/placeholder) |
+| Akinsipe Oluwabukola     | [GitHub](https://github.com/Bukolaeg)    |
+| Grace Okome              | [GitHub](https://github.com/Gracesabel)  |
+| Omobolaji Olaniyan       | [GitHub](https://github.com/loco-tech)   |
 
 ## Components & Responsibilities
 
