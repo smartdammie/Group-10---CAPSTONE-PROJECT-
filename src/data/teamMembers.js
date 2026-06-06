@@ -15,7 +15,7 @@ const teamMembers = [
   { name: "Kenneth Oyesola", github: "https://github.com/Kenoye001" },
   { name: "Omobolaji Olaniyan", github: "https://github.com/loco-tech" },
   { name: "Onyedika Daniel Okafor", github: "https://github.com/DanielCode-10" },
-  { name: "Placeholder Member 8", github: "https://github.com/placeholder" },
+  { name: "Grace Oghenefego Okome", github: "https://github.com/Gracesabel" },
   { name: "Placeholder Member 9", github: "https://github.com/placeholder" },
   { name: "Placeholder Member 10", github: "https://github.com/placeholder" },
   { name: "Placeholder Member 11", github: "https://github.com/placeholder" },
