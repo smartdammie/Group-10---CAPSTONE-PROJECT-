@@ -13,7 +13,7 @@ const teamMembers = [
    github: "https://github.com/INFlNlTEE"
   },
   { name: "Kenneth Oyesola", github: "https://github.com/Kenoye001" },
-  { name: "Placeholder Member 6", github: "https://github.com/placeholder" },
+  { name: "Omobolaji Olaniyan", github: "https://github.com/loco-tech" },
   { name: "Placeholder Member 7", github: "https://github.com/placeholder" },
   { name: "Placeholder Member 8", github: "https://github.com/placeholder" },
   { name: "Placeholder Member 9", github: "https://github.com/placeholder" },
