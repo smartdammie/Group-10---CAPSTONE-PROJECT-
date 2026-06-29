@@ -4,7 +4,7 @@ A React web application that explores our solar system through data. Built as a 
 
 ## Live Demo
 
-> Deployment link — update this once the project is deployed to Vercel or Netlify.
+https://group-10-capstone-project.vercel.app
 
 ## Project Summary
 
@@ -12,54 +12,50 @@ Phoenix is a React-based web app that fetches real planetary data from an extern
 
 ## Team Members
 
-| Name | GitHub |
-|------|--------|
-| Adebayo Ayodele Israel | [GitHub](https://github.com/placeholder) |
-| Kenneth Oyesola| [GitHub](https://github.com/Kenoye001) |
-| Placeholder Member 3 | [GitHub](https://github.com/placeholder) |
-| Placeholder Member 4 | [GitHub](https://github.com/placeholder) |
-| Placeholder Member 5 | [GitHub](https://github.com/placeholder) |
-| Placeholder Member 6 | [GitHub](https://github.com/placeholder) |
-| Placeholder Member 7 | [GitHub](https://github.com/placeholder) |
-| Placeholder Member 8 | [GitHub](https://github.com/placeholder) |
-| Placeholder Member 9 | [GitHub](https://github.com/placeholder) |
-| Placeholder Member 10 | [GitHub](https://github.com/placeholder) |
-| Placeholder Member 11 | [GitHub](https://github.com/placeholder) |
-| Placeholder Member 12 | [GitHub](https://github.com/placeholder) |
-| Placeholder Member 13 | [GitHub](https://github.com/placeholder) |
-| Placeholder Member 14 | [GitHub](https://github.com/placeholder) |
-| Placeholder Member 15 | [GitHub](https://github.com/placeholder) |
+| Name                     | GitHub                                   |
+| ------------------------ | ---------------------------------------- |
+| Adebayo Ayodele Israel   | [GitHub](https://github.com/ayoisrael)   |
+| Olaniyi Damilare Gabriel | [GitHub](https://github.com/smartdammie) |
+| Erua Joseph Yusuf        | [GitHub](https://github.com/Eruxuf)      |
+| Okoro Oghenetega         | [GitHub](https://github.com/INFlNlTEE)   |
+| Oyesola Kenneth Oyedotun | [GitHub](https://github.com/Kenoye001)   |
+| Akinsipe Oluwabukola     | [GitHub](https://github.com/Bukolaeg)    |
+| Grace Okome              | [GitHub](https://github.com/Gracesabel)  |
+| Omobolaji Olaniyan       | [GitHub](https://github.com/loco-tech)   |
 
 ## Components & Responsibilities
 
-| Component / File | Location | Contributor(s) |
-|-----------------|----------|----------------|
-| `Navbar` | `src/components/Navbar/` | Grace Okome |
-| `Hero` | `src/components/Hero/` | Adebayo Ayodele Irael |
-| `VideoSection` | `src/components/VideoSection/` | Erua Joseph Yusuf |
-| `PlanetGrid` | `src/components/PlanetGrid/` | Omobolaji Olaniyan |
-| `PlanetCard` | `src/components/PlanetGrid/PlanetCard.jsx` | Okon Oghenetega |
-| `DataTable` | `src/components/DataTable/` | Oyesola Kenneth Oyedotun |
-| `ContactForm` | `src/components/ContactForm/` | Olaniyi Damilare Gabriel |
-| `Footer` | `src/components/Footer/` | Grace Okome |
-| `usePlanets` hook | `src/hooks/usePlanets.js` | Olaniyi Damilare Gabriel |
-| `teamMembers` data | `src/data/teamMembers.js` | Okon Oghenetega |
-| `planetTableData` data | `src/data/planetTableData.js` | Adebayo Ayodele Irael |
+| Component / File       | Location                                   | Contributor(s) |
+| ---------------------- | ------------------------------------------ | -------------- |
+| `Navbar`               | `src/components/Navbar/`                   | Group          |
+| `Hero`                 | `src/components/Hero/`                     | Group          |
+| `VideoSection`         | `src/components/VideoSection/`             | Group          |
+| `PlanetGrid`           | `src/components/PlanetGrid/`               | Group          |
+| `PlanetCard`           | `src/components/PlanetGrid/PlanetCard.jsx` | Group          |
+| `DataTable`            | `src/components/DataTable/`                | Group          |
+| `ContactForm`          | `src/components/ContactForm/`              | Group          |
+| `Footer`               | `src/components/Footer/`                   | Group          |
+| `usePlanets` hook      | `src/hooks/usePlanets.js`                  | Group          |
+| `teamMembers` data     | `src/data/teamMembers.js`                  | Group          |
+| `planetTableData` data | `src/data/planetTableData.js`              | Group          |
 
 ## Running Locally
 
 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/placeholder/group-10-capstone.git
+   git clone https://github.com/smartdammie/Group-10---CAPSTONE-PROJECT-.git
    cd group-10-capstone
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Start the development server:
+
    ```bash
    npm run dev
    ```
