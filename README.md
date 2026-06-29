@@ -27,17 +27,17 @@ Phoenix is a React-based web app that fetches real planetary data from an extern
 
 | Component / File       | Location                                   | Contributor(s) |
 | ---------------------- | ------------------------------------------ | -------------- |
-| `Navbar`               | `src/components/Navbar/`                   | Group          |
-| `Hero`                 | `src/components/Hero/`                     | Group          |
-| `VideoSection`         | `src/components/VideoSection/`             | Group          |
-| `PlanetGrid`           | `src/components/PlanetGrid/`               | Group          |
-| `PlanetCard`           | `src/components/PlanetGrid/PlanetCard.jsx` | Group          |
-| `DataTable`            | `src/components/DataTable/`                | Group          |
-| `ContactForm`          | `src/components/ContactForm/`              | Group          |
-| `Footer`               | `src/components/Footer/`                   | Group          |
-| `usePlanets` hook      | `src/hooks/usePlanets.js`                  | Group          |
-| `teamMembers` data     | `src/data/teamMembers.js`                  | Group          |
-| `planetTableData` data | `src/data/planetTableData.js`              | Group          |
+| `Navbar`               | `src/components/Navbar/`                   | Grace Okome          |
+| `Hero`                 | `src/components/Hero/`                     | Adebayo Ayodele Irael          |
+| `VideoSection`         | `src/components/VideoSection/`             | Erua Joseph Yusuf          |
+| `PlanetGrid`           | `src/components/PlanetGrid/`               | Omobolaji Olaniyan         |
+| `PlanetCard`           | `src/components/PlanetGrid/PlanetCard.jsx` | Okon Oghenetega           |
+| `DataTable`            | `src/components/DataTable/`                |Oyesola Kenneth Oyedotun          |
+| `ContactForm`          | `src/components/ContactForm/`              | Olaniyi Damilare Gabriel          |
+| `Footer`               | `src/components/Footer/`                   | Grace Okome         |
+| `usePlanets` hook      | `src/hooks/usePlanets.js`                  | Olaniyi Damilare Gabriel          |
+| `teamMembers` data     | `src/data/teamMembers.js`                  | Okon Oghenetega          |
+| `planetTableData` data | `src/data/planetTableData.js`              | Adebayo Ayodele Irael          |
 
 ## Running Locally
 
