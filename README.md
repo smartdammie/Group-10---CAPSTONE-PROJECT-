@@ -27,17 +27,17 @@ Phoenix is a React-based web app that fetches real planetary data from an extern
 
 | Component / File       | Location                                   | Contributor(s) |
 | ---------------------- | ------------------------------------------ | -------------- |
-| `Navbar`               | `src/components/Navbar/`                   | Grace Okome          |
-| `Hero`                 | `src/components/Hero/`                     | Adebayo Ayodele Irael          |
+| `Navbar`               | `src/components/Navbar/`                   | Grace Okome                |
+| `Hero`                 | `src/components/Hero/`                     | Adebayo Ayodele Irael      |
 | `VideoSection`         | `src/components/VideoSection/`             | Erua Joseph Yusuf          |
 | `PlanetGrid`           | `src/components/PlanetGrid/`               | Omobolaji Olaniyan         |
-| `PlanetCard`           | `src/components/PlanetGrid/PlanetCard.jsx` | Okon Oghenetega           |
-| `DataTable`            | `src/components/DataTable/`                |Oyesola Kenneth Oyedotun          |
-| `ContactForm`          | `src/components/ContactForm/`              | Olaniyi Damilare Gabriel          |
-| `Footer`               | `src/components/Footer/`                   | Grace Okome         |
-| `usePlanets` hook      | `src/hooks/usePlanets.js`                  | Olaniyi Damilare Gabriel          |
-| `teamMembers` data     | `src/data/teamMembers.js`                  | Okon Oghenetega          |
-| `planetTableData` data | `src/data/planetTableData.js`              | Adebayo Ayodele Irael          |
+| `PlanetCard`           | `src/components/PlanetGrid/PlanetCard.jsx` | Okoro Oghenetega           |
+| `DataTable`            | `src/components/DataTable/`                |Oyesola Kenneth Oyedotun    |
+| `ContactForm`          | `src/components/ContactForm/`              | Olaniyi Damilare Gabriel   |
+| `Footer`               | `src/components/Footer/`                   | Grace Okome                |
+| `usePlanets` hook      | `src/hooks/usePlanets.js`                  | Olaniyi Damilare Gabriel   |
+| `teamMembers` data     | `src/data/teamMembers.js`                  | Okoro Oghenetega           |
+| `planetTableData` data | `src/data/planetTableData.js`              | Adebayo Ayodele Irael      |
 
 ## Running Locally
 
